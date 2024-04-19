@@ -19,6 +19,10 @@ Follow these steps to set up the project on your local machine:
      yarn install
      ```
 
+     ```bash
+     yarn global add serve
+     ```
+
 ## Running the Development Server
 
 To run the development server and view the project in your web browser:
@@ -27,6 +31,9 @@ To run the development server and view the project in your web browser:
    - Use the following command to start the development server:
      ```bash
      yarn serve
+     ```
+     ```bash
+     yarn add serve --dev
      ```
    - This command will start a local server using `browser-sync`, which serves the files located in the `demo` directory and watches for any changes.
 
